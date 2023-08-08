@@ -1,0 +1,50 @@
+.TH LCEXT 1 "2020-10-09" "1.0" "General Commands Manual"
+.\"
+.\"
+.SH NAME
+lcext \- Rename files (given on the command line) so that they have lower case extensions
+.\"
+.\"
+.SH SYNOPSIS
+.PP
+\fBlcext\fR [ \fB\-h\fR ] [ \fIFILE\fR ... ]
+.\"
+.\"
+.SH DESCRIPTION
+.PP
+Rename files (given on the command line) so that they have lower case extensions.
+Files already having a lower case extension or not having an extension at all are left untouched.
+We define a file "extension" as any (if any) characters following the first dot (if present) in a file name.
+.\"
+.\"
+.SH OPTIONS
+.TP
+.BR \-h
+print some help and exit immediately
+.\"
+.\"
+.SH EXIT STATUS
+.PP
+Always 0
+.\"
+.\"
+.SH EXAMPLE
+.TP
+	abc.PNG		-> abc.png
+.TP	
+	ABC.JPeG		-> ABC.jpeg
+.TP
+	noext.		-> noext.
+.TP
+	good.txt		-> good.txt
+.TP
+	nodot		-> nodot
+.TP
+	MUL.TIP.LE	-> MUL.tip.le
+.\"
+.\"
+.SH LICENSE
+.PP
+Distributed under the MIT License. See LICENSE.txt for more information.
+.\"
+.\"
