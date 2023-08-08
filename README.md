@@ -1,9 +1,9 @@
 # lcext
 
 Rename files (given on the command line) so that they have lower case extensions.
-<br>
+
 Files already having a lower case extension or not having an extension at all are left untouched.
-We define a file *"extension"* as any (if any) characters following the first dot (if present) in a file name.
+We define a file "extension" as the sequence of any (if any) characters following the first dot (if present) in a file name.
 
 version	1.0, 2020-10-09
 
