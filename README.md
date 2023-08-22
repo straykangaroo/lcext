@@ -6,7 +6,7 @@ Files already having a lower case extension or not having an extension at all ar
 We define a file "extension" as the sequence of any (if any) characters following the first dot (if present) in a file name.
 
 
-## usage
+## Usage
 
 	lcext.sh [-h] [FILE ... ]
 
